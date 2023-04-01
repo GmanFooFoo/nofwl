@@ -1,75 +1,77 @@
 hello: Hallo NoFWL
+
 window:
-message:
-close: Möchten Sie die Anwendung beenden, wenn Sie auf die [x]-Taste klicken?
+  message:
+    close: Möchten Sie die Anwendung beenden, wenn Sie auf die [x]-Taste klicken?
+
 menu:
-app:
-about: Über NoFWL
-check_update: Auf Updates prüfen
-preferences:
-name: Einstellungen
-control_center: Kontrollzentrum
-stay_on_top: Immer im Vordergrund
-titlebar: Titelleiste
-hide_dock_icon: Dock-Symbol ausblenden
-language: Sprache
-theme:
-name: Thema
-light: Hell
-dark: Dunkel
-system: System
-sponsor: NoFWL unterstützen
-edit:
-name: Bearbeiten
-view:
-name: Ansicht
-go_back: Zurück
-go_forward: Vorwärts
-scroll_top: Zum Anfang scrollen
-scroll_bottom: Zum Ende scrollen
-zoom_0: Tatsächliche Größe
-zoom_out: Verkleinern
-zoom_in: Vergrößern
-reload: Bildschirm aktualisieren
-help:
-name: Hilfe
-app_log: NoFWL-Protokoll
-report_bug: Fehler melden
-feedback: Feedback
-dev_tools: Entwickler-Tools ein-/ausschalten
+  app:
+    about: Über NoFWL
+    check_update: Auf Updates prüfen
+  preferences:
+    name: Einstellungen
+    control_center: Kontrollzentrum
+    stay_on_top: Immer im Vordergrund
+    titlebar: Titelleiste
+    hide_dock_icon: Dock-Symbol ausblenden
+    language: Sprache
+    theme:
+      name: Thema
+      light: Hell
+      dark: Dunkel
+      system: System
+    sponsor: NoFWL unterstützen
+  edit:
+    name: Bearbeiten
+  view:
+    name: Ansicht
+    go_back: Zurück
+    go_forward: Vorwärts
+    scroll_top: Zum Anfang scrollen
+    scroll_bottom: Zum Ende scrollen
+    zoom_0: Tatsächliche Größe
+    zoom_out: Verkleinern
+    zoom_in: Vergrößern
+    reload: Bildschirm aktualisieren
+  help:
+    name: Hilfe
+    app_log: NoFWL-Protokoll
+    report_bug: Fehler melden
+    feedback: Feedback
+    dev_tools: Entwickler-Tools ein-/ausschalten
 
 gpt:
-button:
-cancel: Abbrechen
-save: Speichern
-sidebar:
-menu_title:
-new: Neuer Chat
-history: Chat-Verlauf
-prompts: Prompts
-export_md: Markdown exportieren
-settings: Einstellungen
-hide_side: Seite ausblenden
-message:
-chat_history: Chat-Verlauf
-chat_delete: Möchten Sie diesen Chat-Verlauf wirklich löschen? Nach dem Löschen kann er nicht wiederhergestellt werden!
-modal:
-settings_title: GPT-Einstellungen
-chat_avatar:
-label: Chat-Avatar
-tip: '(quadratisch: 200x200)'
-warn: Ungültiger Dateityp. Bitte wählen Sie ein JPEG (JPG) oder PNG Bild aus!
-api_key:
-label: API-Schlüssel
-warn: API-Schlüssel darf nicht leer sein!
-title: Über API-Schlüssel
-link: Holen Sie sich Ihren API-Schlüssel von OpenAI
-context: Ihr API-Schlüssel wird lokal gespeichert und niemals an anderer Stelle gesendet.
-model: Modell
-context_level:
-label: Kontextebene
-title: Was ist eine Kontextebene?
-context: Das Modell hat keine Erinnerung an vergangene Anfragen und muss durch Dialog mit allen relevanten Informationen versorgt werden. Die Anfragen basieren auf einer festgelegten Kontextebene, die die letzten N Informationen innerhalb eines Bereichs von 0-100 umfasst.
-main:
-message:
-delete_confirm: Sicher?
+  button:
+    cancel: Abbrechen
+    save: Speichern
+  sidebar:
+    menu_title:
+      new: Neuer Chat
+      history: Chat-Verlauf
+      prompts: Prompts
+      export_md: Markdown exportieren
+      settings: Einstellungen
+      hide_side: Seite ausblenden
+    message:
+      chat_history: Chat-Verlauf
+      chat_delete: Möchten Sie diesen Chat-Verlauf wirklich löschen? Nach dem Löschen kann er nicht wiederhergestellt werden!
+  modal:
+    settings_title: GPT-Einstellungen
+    chat_avatar:
+      label: Chat-Avatar
+      tip: '(quadratisch: 200x200)'
+      warn: Ungültiger Dateityp. Bitte wählen Sie ein JPEG (JPG) oder PNG Bild aus!
+    api_key:
+      label: API-Schlüssel
+      warn: API-Schlüssel darf nicht leer sein!
+      title: Über API-Schlüssel
+      link: Holen Sie sich Ihren API-Schlüssel von OpenAI
+      context: Ihr API-Schlüssel wird lokal gespeichert und niemals an anderer Stelle gesendet.
+    model: Modell
+    context_level:
+      label: Kontextebene
+      title: Was ist eine Kontextebene?
+      context: Das Modell hat keine Erinnerung an vergangene Anfragen und muss durch Dialog mit allen relevanten Informationen versorgt werden. Die Anfragen basieren auf einer festgelegten Kontextebene, die die letzten N Informationen innerhalb eines Bereichs von 0-100 umfasst.
+  main:
+    message:
+      delete_confirm: Sicher?
